@@ -23,4 +23,4 @@ Results in:
 _Originally posted by @bawtman in https://github.com/github/markup/issues/1440#issuecomment-1286744358_
            
 $\textcolor{green}{\text{Hello}}$
-$\textcolor{green}{\textst{Hello}}$
+$\textcolor{green}{\textsf{Hello}}$
