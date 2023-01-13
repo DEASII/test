@@ -1,14 +1,8 @@
 C lecture
 
 
-Week 1
+Week 1 `Primitive Data Type`{.green}
 
-+ C +
-- O -
-! L !
-@@ O @@
-# R #
-S
 
 `#define PI 3.14`            // ไม่ต้องมี `;`
 defind STR “helloWorld”    //  str ได้ 
