@@ -21,4 +21,6 @@ Results in:
 |  $$\color{Magenta} \fcolorbox{red}{white} {Magenta on White} $$ |  $$\color{green} \fcolorbox{red}{white} {Green on White} $$ | $$\color{lime} \fcolorbox{white}{red} {Lime on Red} $$ |$$\color{Orange} \fcolorbox{white}{black} {Orange on Black} $$  | $$\color{blue} \fcolorbox{white}{red} {Blue on White} $$ |
 
 _Originally posted by @bawtman in https://github.com/github/markup/issues/1440#issuecomment-1286744358_
-            
+           
+$\textcolor{green}{\text{Hello}}$
+$\textcolor{green}{\textst{Hello}}$
