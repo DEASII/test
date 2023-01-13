@@ -1,41 +1,24 @@
-C lecture
+              This code results in a somewhat useful method of rendering color.
+```
+| $$\color{black}{Black}$$ |  $$\color{blue}{Blue}$$ | $$\color{brown}{Brown}$$ | $$\color{darkgray}{Darkgray}$$  | $$\color{gray}{Gray}$$ | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| $$\color{lightgray}{Lightgray}$$ |  $$\color{green}{Green}$$ | $$\color{brown}{Brown}$$ | $$\color{lime}{Lime}$$  | $$\color{magenta}{Magenta}$$ |
+| $$\color{olive}{Olive}$$ |  $$\color{orange}{Orange}$$ | $$\color{pink}{Pink}$$ | $$\color{purple}{Purple}$$  | $$\color{red}{Red}$$ | 
+| $$\color{teal}{Teal}$$ |  $$\color{violet}{Violet}$$ | $$\color{white}{White}$$ | $$\color{yellow}{Yellow}$$  | $$\color{BurntOrange}{MBurntOrange}$$ |
+| $$\color{white} \colorbox{Green} {White on Green} $$   | $$\color{purple} \fcolorbox{red}{white} {Purple on White} $$  | $$\color{black} \fcolorbox{white} {red} {Black on Red} $$   | $$\color{black} \fcolorbox{red}{white} {Black on White} $$ | $$\color{black} \colorbox{BurntOrange} {orange background} $$ |
+| $$\color{Magenta} \fcolorbox{red}{white} {Magenta on White} $$ |  $$\color{green} \fcolorbox{red}{white} {Green on White} $$ | $$\color{lime} \fcolorbox{white}{red} {Lime on Red} $$ |$$\color{Orange} \fcolorbox{white}{black} {Orange on Black} $$  | $$\color{blue} \fcolorbox{white}{red} {Blue on White} $$ | 
 
 
-Week 1 `Primitive Data Type`{.green}
+```
+Results in:
 
+|  $$\color{black}{Black}$$ |  $$\color{blue}{Blue}$$ | $$\color{brown}{Brown}$$ | $$\color{darkgray}{Darkgray}$$  | $$\color{gray}{Gray}$$ | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| $$\color{lightgray}{Lightgray}$$ |  $$\color{green}{Green}$$ | $$\color{brown}{Brown}$$ | $$\color{lime}{Lime}$$  | $$\color{magenta}{Magenta}$$ |
+| $$\color{olive}{Olive}$$ |  $$\color{orange}{Orange}$$ | $$\color{pink}{Pink}$$ | $$\color{purple}{Purple}$$  | $$\color{red}{Red}$$ | 
+| $$\color{teal}{Teal}$$ |  $$\color{violet}{Violet}$$ | $$\color{white}{White}$$ | $$\color{yellow}{Yellow}$$  | $$\color{BurntOrange}{MBurntOrange}$$ |
+| $$\color{white} \colorbox{Green} {White on Green} $$   | $$\color{purple} \fcolorbox{red}{white} {Purple on White} $$  | $$\color{black} \fcolorbox{white} {red} {Black on Red} $$   | $$\color{black} \fcolorbox{red}{white} {Black on White} $$ | $$\color{black} \colorbox{BurntOrange} {orange background} $$ |
+|  $$\color{Magenta} \fcolorbox{red}{white} {Magenta on White} $$ |  $$\color{green} \fcolorbox{red}{white} {Green on White} $$ | $$\color{lime} \fcolorbox{white}{red} {Lime on Red} $$ |$$\color{Orange} \fcolorbox{white}{black} {Orange on Black} $$  | $$\color{blue} \fcolorbox{white}{red} {Blue on White} $$ |
 
-`#define PI 3.14`            // ไม่ต้องมี `;`
-defind STR “helloWorld”    //  str ได้ 
-หลัง define คือ symbolic constant นิยมใช้ ตัวใหญ่ทั้งหมด
-#include 
-^ compiler directive ^  == หลัง #
-
-Week 2 
-
-ตั้งชื่อ ตัวแปร 
-- Int 1x #ห้าม มี เลข นำหน้า
-- ใช้ _ ได้
-- Int X ตัวใหญ่ //sensitive case
-
-$\textcolor{blue}{\text{Hello}}$.  
-$\textcolor{green}{\text{Primitive Data Type}}$  เฉพาะตัวเลข  [ทศนิยม จำนวนจริง]
-Type	Storage Size	Value range
-char	1 byte	-128 to 127
-short	2 byte	-32,768 to 32,767
-int	4 byte	-2,147,483,648 to 2,147,483,647
-long	8 bytes or (4bytes for 32 bit OS)	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-
--keyword unsigned นำหน้า Data type ได้เพื่อจะทำให้ตัวแปรนั้นๆ ไม่เก็บค่าลบ 
-  จะเก็บค่าแค่ตั้งแต่ 0 ขึ้นไปได้ 0 - 255 (256 ตัว) 
--keyword short นำหน้า data type เพื่อทำให้ขนาดของตัวแปรลดลง ( 2 เท่า ) 
--keyword long นำหน้า data type เพื่อทำให้ขนาดของตัวแปรเพิ่มขึ้น ( 2 เท่า )
-
-*หมายเหตุ keyword short กับ long สามารถใช้นำหน้าตัวมันเองได้เช่น long long
-
-keyword unsigned นำหน้า Data type ได้เพื่อจะทำให้ตัวแปรนั้นๆ ไม่เก็บค่าลบ จะเก็บค่าแค่ตั้งแต่ 0 ขึ้นไปได้  
-keyword short นำหน้า data type เพื่อทำให้ขนาดของตัวแปรลดลง ( 2 เท่า )  
-keyword long นำหน้า data type เพื่อทำให้ขนาดของตัวแปรเพิ่มขึ้น ( 2 เท่า )
-
-sdsd.  
-sds     
-sds.  
+_Originally posted by @bawtman in https://github.com/github/markup/issues/1440#issuecomment-1286744358_
+            
