@@ -4,6 +4,7 @@ C lecture
 Week 1
 
 `#define PI 3.14`                      // ไม่ต้องมี `;`
+
 #defind STR “helloWorld”    //  str ได้ 
 หลัง define คือ symbolic constant นิยมใช้ ตัวใหญ่ทั้งหมด
 #include 
