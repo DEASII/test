@@ -10,13 +10,14 @@ defind STR “helloWorld”    //  str ได้
 #include 
 ^ compiler directive ^  == หลัง #
 
-Week 2 `Primitive Data Type`{.green}
+Week 2 
 
 ตั้งชื่อ ตัวแปร 
 - Int 1x #ห้าม มี เลข นำหน้า
 - ใช้ _ ได้
 - Int X ตัวใหญ่ //sensitive case
 
+$\textcolor{green}{\textsf{Hello}}$
 $\textcolor{green}{\text{Primitive Data Type}}$  เฉพาะตัวเลข  [ทศนิยม จำนวนจริง]
 Type	Storage Size	Value range
 char	1 byte	-128 to 127
