@@ -17,7 +17,7 @@ Week 2
 - ใช้ _ ได้
 - Int X ตัวใหญ่ //sensitive case
 
-$\textcolor{green}{\textsf{Hello}}$
+$\textcolor{green}{\textsi{Hello}}$
 $\textcolor{green}{\text{Primitive Data Type}}$  เฉพาะตัวเลข  [ทศนิยม จำนวนจริง]
 Type	Storage Size	Value range
 char	1 byte	-128 to 127
