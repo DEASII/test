@@ -1,7 +1,7 @@
 C lecture
 
 
-Week 1
+Week 1 <font color="red">
 
 `#define PI 3.14`            // ไม่ต้องมี `;`
 defind STR “helloWorld”    //  str ได้ 
