@@ -1,7 +1,7 @@
 C lecture
 
 
-Week 1 $\textcolor{green}{\text{Hello}}$ World
+Week 1 
 
 `#define PI 3.14`            // ไม่ต้องมี `;`
 defind STR “helloWorld”    //  str ได้ 
@@ -16,7 +16,7 @@ Week 2
 - ใช้ _ ได้
 - Int X ตัวใหญ่ //sensitive case
 
-Primitive Data Type เฉพาะตัวเลข  [ทศนิยม จำนวนจริง]
+$\textcolor{green}{\text{Primitive Data Type}}$  เฉพาะตัวเลข  [ทศนิยม จำนวนจริง]
 Type	Storage Size	Value range
 char	1 byte	-128 to 127
 short	2 byte	-32,768 to 32,767
