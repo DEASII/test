@@ -9,7 +9,7 @@ defind STR “helloWorld”    //  str ได้
 #include 
 ^ compiler directive ^  == หลัง #
 
-Week 2
+Week 2 <span data-color="red">Red</span>
 
 ตั้งชื่อ ตัวแปร 
 - Int 1x #ห้าม มี เลข นำหน้า
