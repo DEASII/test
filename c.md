@@ -30,6 +30,7 @@ long	8 bytes or (4bytes for 32 bit OS)	-9,223,372,036,854,775,808 to 9,223,372,0
 
 *หมายเหตุ keyword short กับ long สามารถใช้นำหน้าตัวมันเองได้เช่น long long
 
-keyword `unsigned` นำหน้า Data type ได้เพื่อจะทำให้ตัวแปรนั้นๆ ไม่เก็บค่าลบ จะเก็บค่าแค่ตั้งแต่ 0 ขึ้นไปได้  
-keyword `short` นำหน้า data type เพื่อทำให้ขนาดของตัวแปรลดลง ( 2 เท่า )  
-keyword `long` นำหน้า data type เพื่อทำให้ขนาดของตัวแปรเพิ่มขึ้น ( 2 เท่า )
+qwqw
+qwqw
+asas
+sds
