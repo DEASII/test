@@ -2,14 +2,13 @@ C lecture
 
 
 Week 1
-```diff
+
 + C +
 - O -
 ! L !
 @@ O @@
 # R #
 S
-```
 
 `#define PI 3.14`            // ไม่ต้องมี `;`
 defind STR “helloWorld”    //  str ได้ 
@@ -17,7 +16,7 @@ defind STR “helloWorld”    //  str ได้
 #include 
 ^ compiler directive ^  == หลัง #
 
-Week 2 <span data-color="red">Red</span>
+Week 2 `Primitive Data Type`{.green}
 
 ตั้งชื่อ ตัวแปร 
 - Int 1x #ห้าม มี เลข นำหน้า
