@@ -1,13 +1,7 @@
 C lecture
 
 
-Week 1 ```diff
-+ Green
-- Red
-! Orange
-@@ Pink @@
-# Gray
-...
+Week 1 + Green +
 
 `#define PI 3.14`            // ไม่ต้องมี `;`
 defind STR “helloWorld”    //  str ได้ 
