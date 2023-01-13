@@ -33,3 +33,8 @@ long	8 bytes or (4bytes for 32 bit OS)	-9,223,372,036,854,775,808 to 9,223,372,0
 keyword unsigned นำหน้า Data type ได้เพื่อจะทำให้ตัวแปรนั้นๆ ไม่เก็บค่าลบ จะเก็บค่าแค่ตั้งแต่ 0 ขึ้นไปได้  
 keyword short นำหน้า data type เพื่อทำให้ขนาดของตัวแปรลดลง ( 2 เท่า )  
 keyword long นำหน้า data type เพื่อทำให้ขนาดของตัวแปรเพิ่มขึ้น ( 2 เท่า )
+
+#define PI 3.14                      // ไม่ต้องมี ;
+#defind STR “helloWorld”    //  str ได้ 
+หลัง define คือ symbolic constant นิยมใช้ ตัวใหญ่ทั้งหมด
+#include 
