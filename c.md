@@ -1,7 +1,7 @@
 C lecture
 
 
-Week 1 + Green +
+Week 1 $\textcolor{green}{\text{Hello}}$ World
 
 `#define PI 3.14`            // ไม่ต้องมี `;`
 defind STR “helloWorld”    //  str ได้ 
